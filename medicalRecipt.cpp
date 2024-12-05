@@ -10,7 +10,6 @@ cin >> age;
 cout << "Enter patient's sex: ";
 getline(cin, sex);
 cin.ignore();
-
 cout << "Enter referred by doctor: ";
 getline(cin, refBy);
 }
@@ -70,9 +69,9 @@ cout << "                                SLIP              \n";
 cout << "Receipt No.  10/24-25/32194                         Net Id/Password 102430621 / 29CF1780\n";
 cout << "____________________________________________________________________________________\n";
 cout << "Patient Id 102430621                                  Date & Time :______________\n";
-cout <<"Patient Name: " << name <<  "                         Relation" << endl;
-cout <<"Age/Sex: " << age << "yrs/ " << sex <<"              contact No.____________" << endl;
-cout <<"Refferred By: Dr. " << refBy <<"                     Receipt Date___________" << endl;
+cout <<"Patient Name: " << name <<  "                                   Relation" << endl;
+cout <<"Age/Sex: " << age << "yrs/ " << sex <<"                             contact No.____________" << endl;
+cout <<"Refferred By: Dr. " << refBy <<"                                    Receipt Date___________" << endl;
 cout <<"____________________________________________________________________________________\n";
 cout << "Recived with thanks a sum of Rs." << totalCharge << " form Mr. " << name << " By: Cash on a/c of:\n";
 cout << "Sr.  Invesigations                   Charge\n" ;
